@@ -3,10 +3,11 @@
 
 ## [javascript online compiler](https://www.programiz.com/javascript/online-compiler/)
 
-## stringFunctions
+## [freecodecamp stringFunctions](freecodecamp/string_functions.js)
 
-uppercaseString
+## kata
 
-lowercaseString
-
-## kata 
+- [array functions](kata/array_functions.js)
+- [bool functions](kata/bool_functions.js)
+- [math functions](kata/math_functions.js)
+- [string functions](kata/string_functions.js)
