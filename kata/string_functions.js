@@ -1,4 +1,6 @@
-export { solution as reverseString, boolToWord, numberToString, removeChar as removeFirstAndLastChars, repeatStr as repeatString, noSpace as removeSpaces, abbrevName as nameToInitials, greet, findNeedle, helloWorld, booleanToString, areYouPlayingBanjo }
+export { evenOrOdd, solution as reverseString, boolToWord, numberToString, removeChar as removeFirstAndLastChars, repeatStr as repeatString, noSpace as removeSpaces, abbrevName as nameToInitials, greet, findNeedle, helloWorld, booleanToString, areYouPlayingBanjo }
+const evenOrOdd = n => n % 2 ? "Odd" : "Even"; //console.log(evenOrOdd(7)); // Output: 'Odd'
+
 const solution = str => str.split('').reverse().join('');// console.log(solution('world'));; // Output: 'dlrow'
 
 const boolToWord = bool => bool ? "Yes" : "No";// console.log(boolToWord(true));;  // Output: "Yes"
@@ -16,8 +18,8 @@ const abbrevName = name => name.split(' ').map(word => word[0].toUpperCase()).jo
 const greet = name => "Hello," +name + " how are you doing today?"; //console.log(greet("Alice")); // Output: "Hello, Alice how are you doing today?"
 
 const findNeedle = haystack => `found the needle at position ${haystack.indexOf("needle")}`; //const haystack = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];console.log(findNeedle(haystack)); // Output: "found the needle at position 5"
-
-const helloWorld = () => "hello world!";/*const greet = () => "hello world!";*/ //console.log(helloWorld()); // Output: "hello world!"
+/*const greet = () => "hello world!";*/
+const helloWorld = () => "hello world!"; //console.log(helloWorld()); // Output: "hello world!"
 
 const booleanToString = b => b.toString(); //console.log(booleanToString(true));  // Output: "true"
 
