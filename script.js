@@ -16,4 +16,4 @@ const kata = {
 //console.log(kata);
 //console.log(stringFunctionsFreecodecamp.uppercaseString(kata.helloWorld()) +'\n'); // HELLO WORLD!
 
-console.log(kata.simpleMultiplication(7));
+console.log(kata);

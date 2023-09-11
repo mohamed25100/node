@@ -52,4 +52,22 @@
 |10      | A Needle in the Haystack |  [const findNeedle](/kata/string_functions.js)     |
 |11      | Function 1 - hello world |  [const helloWorld ](/kata/string_functions.js)     |
 | ---- | ---- | ---- |
-|02     | Beginner - Lost Without a Map |  [const maps](/kata/array_functions.js.js)     |
+|02     | Beginner - Lost Without a Map |  [const maps](/kata/array_functions.js)     |
+| ---- | ---- | ---- |
+|02     | Opposites Attract |  [const lovefunc](/kata/bool_functions.js)     |
+| ---- | ---- | ---- |
+| 13 | Beginner Series #2 Clock[const past](/kata/math_functions.js) |
+| 14 | Beginner Series #1 School Paperwork[const paperwork](/kata/math_functions.js) |
+| ---- | ---- | ---- |
+| 12 | Convert a Boolean to a String[const booleanToString](/kata/string_functions.js) |
+| 13 | Are You Playing Banjo?[const areYouPlayingBanjo](/kata/string_functions.js) |//string_functions
+| ---- | ---- | ---- |
+| 15 |  Calculate average[const findAverage](/kata/math_functions.js) |
+| ---- | ---- | ---- |
+| 03 | How good are you really?[const betterThanAverage](/kata/bool_functions.js) |// bool_functions
+| ---- | ---- | ---- |
+| 16 | Sum Arrays[const sum](/kata/math_functions.js) |//math_functions
+| ---- | ---- | ---- |
+| 03 | Invert values[const invert](/kata/array_functions.js) |
+| 04 | Count of positives / sum of negatives[const countPositivesSumNegatives](/kata/array_functions.js) |//array_functions
+

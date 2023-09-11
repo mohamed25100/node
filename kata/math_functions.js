@@ -1,4 +1,4 @@
-export {multiply, positiveSum,makeNegative, opposite, squareSum, summation, SmallestIntegerFinder, countSheeps, basicOp as basicMathOperation, litres, century as centuryFromYear, stringToNumber, past as timeSinceMidnightInMilliseconds, paperwork, findAverage, sumMul, simpleMultiplication };
+export {multiply, positiveSum,makeNegative, opposite, squareSum, summation, SmallestIntegerFinder, countSheeps, basicOp as basicMathOperation, litres, century as centuryFromYear, stringToNumber, past as timeSinceMidnightInMilliseconds, paperwork, findAverage,  sum, sumMul, simpleMultiplication };
 const multiply = (a, b) => a * b; //console.log(multiply(3,5)); // Output: 15
 
 const positiveSum = numbers => numbers.reduce((sum, num) => num > 0 ? sum + num : sum, 0); //console.log(positiveSum([1, -4, 7, 12]));; // Output: 20
@@ -28,6 +28,8 @@ const past = (h, m, s) => (h * 3600 + m * 60 + s) * 1000;//console.log(past(0, 1
 const paperwork = (n, m) => (n < 0 || m < 0) ? 0 : n * m;//console.log(paperwork(5, 5)); // Output: 25
 
 const findAverage = array => array.reduce((acc, num) => acc + num, 0) / (array.length || 1);
+
+const sum = (numbers) => numbers.reduce((a, b) => a + b, 0);
 
 const sumMul = (n, m) => (n <= 0 || m <= 0) ? "INVALID" : Array.from({ length: Math.floor((m - 1) / n) }, (_, i) => (i + 1) * n).reduce((acc, val) => acc + val, 0);
 //console.log(sumMul(2, 9)); // Output: 20
