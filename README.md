@@ -56,18 +56,25 @@
 | ---- | ---- | ---- |
 |02     | Opposites Attract |  [const lovefunc](/kata/bool_functions.js)     |
 | ---- | ---- | ---- |
-| 13 | Beginner Series #2 Clock[const past](/kata/math_functions.js) |
-| 14 | Beginner Series #1 School Paperwork[const paperwork](/kata/math_functions.js) |
+| 13 | Beginner Series #2 Clock | [const past](/kata/math_functions.js) |
+| 14 | Beginner Series #1 School Paperwork | [const paperwork](/kata/math_functions.js) |
 | ---- | ---- | ---- |
-| 12 | Convert a Boolean to a String[const booleanToString](/kata/string_functions.js) |
-| 13 | Are You Playing Banjo?[const areYouPlayingBanjo](/kata/string_functions.js) |//string_functions
+| 12 | Convert a Boolean to a String |[const booleanToString](/kata/string_functions.js) |
+| 13 | Are You Playing Banjo? | [const areYouPlayingBanjo](/kata/string_functions.js) |
 | ---- | ---- | ---- |
-| 15 |  Calculate average[const findAverage](/kata/math_functions.js) |
+| 15 |  Calculate average | [const findAverage](/kata/math_functions.js) |
 | ---- | ---- | ---- |
-| 03 | How good are you really?[const betterThanAverage](/kata/bool_functions.js) |// bool_functions
+| 03 | How good are you really? | [const betterThanAverage](/kata/bool_functions.js) |
 | ---- | ---- | ---- |
-| 16 | Sum Arrays[const sum](/kata/math_functions.js) |//math_functions
+| 16 | Sum Arrays | [const sum](/kata/math_functions.js) |
 | ---- | ---- | ---- |
-| 03 | Invert values[const invert](/kata/array_functions.js) |
-| 04 | Count of positives / sum of negatives[const countPositivesSumNegatives](/kata/array_functions.js) |//array_functions
-
+| 03 | Invert values | [const invert](/kata/array_functions.js) |
+| 04 | Count of positives / sum of negatives |[const countPositivesSumNegatives](/kata/array_functions.js) |
+| ---- | ---- | ---- |
+| 17 | Simple multiplication | [const simpleMultiplication](/kata/math_functions.js) |
+| ---- | ---- | ---- |
+| 04 | You only need one - Beginner | [const check](/kata/bool_functions.js) |
+| ---- | ---- | ---- |
+| 14 | Fake Binary | [const fakeBin](/kata/string_functions.js) |
+| 15 | Calculate BMI | [const bmi](/kata/string_functions.js) |
+| 16 | Beginner - Reduce but Grow | [const grow](/kata/string_functions.js) |

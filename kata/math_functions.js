@@ -1,4 +1,4 @@
-export {multiply, positiveSum,makeNegative, opposite, squareSum, summation, SmallestIntegerFinder, countSheeps, basicOp as basicMathOperation, litres, century as centuryFromYear, stringToNumber, past as timeSinceMidnightInMilliseconds, paperwork, findAverage,  sum, sumMul, simpleMultiplication };
+export {multiply, positiveSum,makeNegative, opposite, squareSum, summation, SmallestIntegerFinder, countSheeps, basicOp as basicMathOperation, litres, century as centuryFromYear, stringToNumber, past as timeSinceMidnightInMilliseconds, paperwork, findAverage,  sum, simpleMultiplication, sumMul };
 const multiply = (a, b) => a * b; //console.log(multiply(3,5)); // Output: 15
 
 const positiveSum = numbers => numbers.reduce((sum, num) => num > 0 ? sum + num : sum, 0); //console.log(positiveSum([1, -4, 7, 12]));; // Output: 20
@@ -31,6 +31,11 @@ const findAverage = array => array.reduce((acc, num) => acc + num, 0) / (array.l
 
 const sum = (numbers) => numbers.reduce((a, b) => a + b, 0);
 
+const simpleMultiplication = number => number * (number % 2 === 0 ? 8 : 9);/* 2023/08/21 */
+
+
+
+
+
 const sumMul = (n, m) => (n <= 0 || m <= 0) ? "INVALID" : Array.from({ length: Math.floor((m - 1) / n) }, (_, i) => (i + 1) * n).reduce((acc, val) => acc + val, 0);
 //console.log(sumMul(2, 9)); // Output: 20
-const simpleMultiplication = number => number * (number % 2 === 0 ? 8 : 9);/* 2023/08/21 */

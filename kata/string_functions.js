@@ -1,4 +1,4 @@
-export { evenOrOdd, solution as reverseString, boolToWord, numberToString, removeChar as removeFirstAndLastChars, repeatStr as repeatString, noSpace as removeSpaces, abbrevName as nameToInitials, greet, findNeedle, helloWorld, booleanToString, areYouPlayingBanjo }
+export { evenOrOdd, solution as reverseString, boolToWord, numberToString, removeChar as removeFirstAndLastChars, repeatStr as repeatString, noSpace as removeSpaces, abbrevName as nameToInitials, greet, findNeedle, helloWorld, booleanToString, areYouPlayingBanjo, fakeBin, bmi, grow }
 const evenOrOdd = n => n % 2 ? "Odd" : "Even"; //console.log(evenOrOdd(7)); // Output: 'Odd'
 
 const solution = str => str.split('').reverse().join('');// console.log(solution('world'));; // Output: 'dlrow'
@@ -24,3 +24,9 @@ const helloWorld = () => "hello world!"; //console.log(helloWorld()); // Output:
 const booleanToString = b => b.toString(); //console.log(booleanToString(true));  // Output: "true"
 
 const areYouPlayingBanjo = name => `${name} ${name[0].toLowerCase() === 'r' ? 'plays' : 'does not play'} banjo`;//console.log(areYouPlayingBanjo("Robert")); // Output: "Robert plays banjo"
+
+const fakeBin = (inputString) => inputString.replace(/\d/g, (digit) => (digit < '5' ? '0' : '1'));
+
+const bmi = (weight, height) => ( (bmi => bmi <= 18.5 ? "Underweight" : bmi <= 25.0 ? "Normal" : bmi <= 30.0 ? "Overweight" : "Obese" )(weight / (height * height)) );
+
+const grow = (arr) => arr.reduce((acc, currentValue) => acc * currentValue, 1);
